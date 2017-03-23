@@ -152,6 +152,7 @@
     <ClInclude Include="Collider.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Obstacle.h" />
     <ClInclude Include="Peluru.h" />
     <ClInclude Include="Pesawat.h" />
     <ClInclude Include="Settings.h" />
@@ -163,6 +164,7 @@
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
     <ClCompile Include="Peluru.cpp" />
     <ClCompile Include="Pesawat.cpp" />
     <ClCompile Include="Settings.cpp" />

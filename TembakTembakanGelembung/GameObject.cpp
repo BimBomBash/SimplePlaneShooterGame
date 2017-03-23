@@ -1,8 +1,18 @@
 #include "stdafx.h"
+#include <iostream>
 #include <string>
 #include <time.h>
+
 #include "GameObject.h"
 
+
+Collider::Collider()
+{
+}
+
+Collider::~Collider()
+{
+}
 
 GameObject::GameObject()
 {
@@ -23,4 +33,8 @@ Position GameObject::GetPosition()
 std::string GameObject::GetTag()
 {
 	return m_tag;
+}
+
+void GameObject::OnCollision(Collider * _col)
+{
 }

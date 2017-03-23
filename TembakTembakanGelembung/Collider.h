@@ -1,13 +1,13 @@
 #pragma once
-class Collider
-{
+
+class CircleCollider:public Collider {
 private:
+
 public:
-	GameObject *gameObject;
-
-	Collider();
-	~Collider();
-
-	virtual void CheckCollision() = 0;
 };
 
+class BoxCollider :public Collider {
+private:
+
+public:
+};

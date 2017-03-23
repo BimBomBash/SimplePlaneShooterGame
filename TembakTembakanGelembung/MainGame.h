@@ -12,6 +12,9 @@ private:
 	std::list <Peluru> peluru;
 	Pesawat *pesawat;
 
+	static std::list <CircleCollider> circleColliders;
+	static std::list <BoxCollider> boxColliders;
+
 	void DrawGame();
 	void AddCircle();
 	void ProcessInput();

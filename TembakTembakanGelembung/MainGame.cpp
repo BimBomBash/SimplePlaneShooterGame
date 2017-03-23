@@ -6,6 +6,7 @@
 #include <cmath>
 #include <string>
 #include "GameObject.h"
+#include "Collider.h"
 #include "Target.h"
 #include "Peluru.h"
 #include "Pesawat.h"
